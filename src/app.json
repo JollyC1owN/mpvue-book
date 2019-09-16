@@ -1,0 +1,48 @@
+{
+  "pages": [
+"pages/FirstView/main",
+    "pages/Personal/main",
+    "pages/Books/main",
+    "pages/Search/main",
+   
+    
+    "pages/BookList/main",
+    "pages/Detail/main"
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "navigationStyle": "default",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "dark",
+    "backgroundColorTop": "#ffffff",
+    "backgroundColorBottom": "#ffffff",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/Books/main",
+        "text": "图书列表",
+        "iconPath": "/static/imgs/book.png",
+        "selectedIconPath": "/static/imgs/book-active.png"
+      },
+      {
+        "pagePath": "pages/Search/main",
+        "text": "搜索图书",
+        "iconPath": "/static/imgs/todo.png",
+        "selectedIconPath": "/static/imgs/todo-active.png"
+      },
+      {
+        "pagePath": "pages/Personal/main",
+        "text": "个人中心",
+        "iconPath": "/static/imgs/me.png",
+        "selectedIconPath": "/static/imgs/me-active.png"
+      }
+    ]
+  }
+  
+}
